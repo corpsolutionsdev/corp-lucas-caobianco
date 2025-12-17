@@ -1,0 +1,20 @@
+# robots.txt para Lucas Caobianco - Primeira Venda em Tempo Record
+
+User-agent: *
+Allow: /
+
+# Permitir acesso a recursos estáticos
+Allow: /src/css/
+Allow: /src/js/
+Allow: /src/img/
+
+# Bloquear arquivos de sistema e configuração
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# Sitemap
+Sitemap: https://www.lucascaobianco.com.br/sitemap.xml
+
